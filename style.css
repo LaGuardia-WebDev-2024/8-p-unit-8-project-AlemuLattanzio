@@ -11,6 +11,11 @@ body {
   font-family: water;
 }
 
+h2{
+  color: red;
+  font-size: 40px;
+} 
+
 h1{
   font-size: 30px;
 }
