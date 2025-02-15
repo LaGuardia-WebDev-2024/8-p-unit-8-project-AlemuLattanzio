@@ -13,8 +13,7 @@ draw = function(){
 //Sand
 fill(230,200,140);
 rect(0,310,600,500);
-
-var drawGrass = function(GrassX, GrassY){ 
+ var drawGrass = function(GrassX, GrassY){ 
   var GrassX = random(50, 50);
   var GrassY = random(50, 50);
  }
@@ -24,12 +23,9 @@ drawGrass();
 drawgrass();
 drawgrass();
 
+  
 };
 
-var drawgrass = function(){
-drawgrass
-
-}
 
 //🟢mouseClicked Function - will run when mouse is clicked
 mouseClicked = function(){
