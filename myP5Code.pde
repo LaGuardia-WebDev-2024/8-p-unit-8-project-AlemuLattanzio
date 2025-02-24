@@ -13,15 +13,15 @@ draw = function(){
 //Sand
 fill(230,200,140);
 rect(0,310,600,500);
- var drawGrass = function(GrassX, GrassY){ 
-  var GrassX = random(50, 50);
-  var GrassY = random(50, 50);
- }
-var grass = "🌱";
+ 
 
-drawGrass();
-drawgrass();
-drawgrass();
+drawgrass(10,300);
+drawgrass(200,300);
+drawgrass(400,300);
+
+drawcoral(95,300);
+drawcoral(300,300);
+drawcoral(490,300);
 
   
 };
@@ -67,5 +67,15 @@ var drawgrass = function(grassX, grassY, grassColor){
   
   textSize(35);
   text("🌱", 99, 100);
+};
+
+//🟡drawcoral Function - will run when called
+var drawcoral = function(coralX, coralY, coralColor){
+  textSize(80);
+  fill(coralColor);
+  text("🪸", coralX, coralY);
+  
+  textSize(35);
+  text("🪸", 99, 100);
 };
 
